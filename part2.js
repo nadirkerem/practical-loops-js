@@ -28,12 +28,13 @@ function nextPrimeFinder(n) {
   }
 }
 
-nextPrimeFinder(9);
+// nextPrimeFinder(9);
 
 // Loop
-let number = 9;
+let number = 83;
 
 while (true) {
+  number++;
   if (number === 1 || number % 2 === 0) {
     number++;
   }
